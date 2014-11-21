@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="icon" href="assets/img/favicon.png">
 
-    <title>SOLID - Bootstrap 3 Theme</title>
+    <title>A Propos | Computer Science Club</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -42,14 +42,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">SOLID.</a>
+          <a href="index.html"><img src="assets/img/minicsc.png" class="img-responsive"></a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">HOME</a></li>
-            <li class="active"><a href="about.html">ABOUT</a></li>
+            <li class="active"><a href="index.html">ACCEUIL</a></li>
+            <li><a href="about.html">A PROPOS</a></li>
             <li><a href="contact.html">CONTACT</a></li>
-            <li class="dropdown">
+            <li><a href="#">EVENEMENTS</a></li>
+            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="blog.html">BLOG</a></li>
@@ -57,7 +58,7 @@
                 <li><a href="portfolio.html">PORTFOLIO</a></li>
                 <li><a href="single-project.html">SINGLE PROJECT</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -69,7 +70,7 @@
 	<div id="blue">
 	    <div class="container">
 			<div class="row">
-				<h3>About.</h3>
+				<h3>A propos du Computer Science Club.</h3>
 			</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /blue -->
@@ -81,17 +82,26 @@
 
 	 <div class="container mtb">
 	 	<div class="row">
-	 		<div class="col-lg-6">
-	 			<img class="img-responsive" src="assets/img/agency.jpg" alt="">
+	 		<div class="col-lg-8">
+		 		<h4>Computer Science Club</h4>
+				<p>Le Computer Science Club est fondé en Mai 2009 par un groupe d’élèves ingénieurs de l’Ecole Nationale
+				des Sciences Appliquées de Tanger ENSAT.<br>
+				Il est l’un des clubs les plus actifs à l’ENSAT.</p>
+				<p>Le CSC organise des conférences, des ateliers, des formations pour atteindre les objectifs qu’il s’est fixé
+				lors de sa création et qui sont:</p>
+				<ul>
+					<li>Inciter les membres à la créativité.</li>
+					<li>Développer les aptitudes et connaissances professionnelles des élèves ingénieurs.</li>
+					<li>Rapprocher les élèves ingénieurs du monde professionnel.</li>
+					<li>Consolider le travail en groupe.</li>
+				</ul>
+ 				<p><br/><a href="contact.html" class="btn btn-theme">Contactez Nous</a></p>
+	 		</div>
+	 		<div class="col-lg-4">
+	 			<img class="img-responsive" src="assets/img/logocsc.png" alt="">
 	 		</div>
 	 		
-	 		<div class="col-lg-6">
-		 		<h4>More About Our Agency.</h4>
-		 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-		 		<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		 		<p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
- 				<p><br/><a href="contact.html" class="btn btn-theme">Contact Us</a></p>
-	 		</div>
+	 		
 	 	</div><! --/row -->
 	 </div><! --/container -->
 
@@ -100,12 +110,29 @@
 	 ***************************************************************************************************************** -->
 
 	 <div class="container mtb">
+		<div class="row centered">
+	 		<div class="col-lg-3 col-md-3 col-sm-3">
+		 		<div class="he-wrap tpl6">
+				<img src="assets/img/team/team01.jpg" alt="">
+					<div class="he-view">
+						<div class="bg a0" data-animate="fadeIn">
+                            <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
+                            <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-envelope"></i></a>
+                            <a href="#" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
+                    	</div><!-- he bg -->
+					</div><!-- he view -->		
+				</div><!-- he wrap -->
+				<h4>Khalid Amechnoue</h4>
+				<h5 class="ctitle">Parrain du Club</h5>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		 	</div>
+		 </div>
 	 	<div class="row centered">
-		 	<h3 class="mb">MEET OUR TEAM</h3>
-		 	
+		 	<h3 class="mb">BUREAU EXECUTIF</h3>
+
 		 	<div class="col-lg-3 col-md-3 col-sm-3">
 				<div class="he-wrap tpl6">
-				<img class="img img-circle" src="assets/img/team/team01.jpg" alt="">
+				<img src="assets/img/team/team01.jpg" alt="">
 					<div class="he-view">
 						<div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -117,12 +144,11 @@
 				<h4>Anwar Ziani</h4>
 				<h5 class="ctitle">Président</h5>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="hline"></div>
 		 	</div><! --/col-lg-3 -->
 
 		 	<div class="col-lg-3 col-md-3 col-sm-3">
 				<div class="he-wrap tpl6">
-				<img class="img img-circle" src="assets/img/team/team02.jpg" alt="">
+				<img src="assets/img/team/team02.jpg" alt="">
 					<div class="he-view">
 						<div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -134,12 +160,11 @@
 				<h4>Soufiane Hitmi</h4>
 				<h5 class="ctitle">Vice-Président</h5>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="hline"></div>
 		 	</div><! --/col-lg-3 -->
 
 		 	<div class="col-lg-3 col-md-3 col-sm-3">
 				<div class="he-wrap tpl6">
-				<img class="img img-circle" src="assets/img/team/team03.jpg" alt="">
+				<img src="assets/img/team/team03.jpg" alt="">
 					<div class="he-view">
 						<div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -151,12 +176,11 @@
 				<h4>Habbiba Kebbaj</h4>
 				<h5 class="ctitle">Secretaire Générale</h5>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="hline"></div>
 		 	</div><! --/col-lg-3 -->
 
 		 	<div class="col-lg-3 col-md-3 col-sm-3">
 				<div class="he-wrap tpl6">
-				<img class="img img-circle" src="assets/img/team/team04.jpg" alt="">
+				<img src="assets/img/team/team04.jpg" alt="">
 					<div class="he-view">
 						<div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -168,7 +192,6 @@
 				<h4>Saad El Hajjaji</h4>
 				<h5 class="ctitle">Chef Cellule Design et Media</h5>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="hline"></div>
 		 	</div><! --/col-lg-3 -->		 	
 		 	
 	 	</div><! --/row -->
@@ -180,7 +203,7 @@
 		 	<br>
 		 	<div class="col-lg-3 col-md-3 col-sm-3">
 				<div class="he-wrap tpl6">
-				<img class="img img-circle" src="assets/img/team/team01.jpg" alt="">
+				<img src="assets/img/team/team01.jpg" alt="">
 					<div class="he-view">
 						<div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -192,12 +215,11 @@
 				<h4>Anwar Ziani</h4>
 				<h5 class="ctitle">Président</h5>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="hline"></div>
 		 	</div><! --/col-lg-3 -->
 
 		 	<div class="col-lg-3 col-md-3 col-sm-3">
 				<div class="he-wrap tpl6">
-				<img class="img img-circle" src="assets/img/team/team02.jpg" alt="">
+				<img src="assets/img/team/team02.jpg" alt="">
 					<div class="he-view">
 						<div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -209,12 +231,11 @@
 				<h4>Soufiane Hitmi</h4>
 				<h5 class="ctitle">Vice-Président</h5>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="hline"></div>
 		 	</div><! --/col-lg-3 -->
 
 		 	<div class="col-lg-3 col-md-3 col-sm-3">
 				<div class="he-wrap tpl6">
-				<img class="img img-circle" src="assets/img/team/team03.jpg" alt="">
+				<img src="assets/img/team/team03.jpg" alt="">
 					<div class="he-view">
 						<div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -226,12 +247,11 @@
 				<h4>Habbiba Kebbaj</h4>
 				<h5 class="ctitle">Secretaire Générale</h5>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="hline"></div>
 		 	</div><! --/col-lg-3 -->
 
 		 	<div class="col-lg-3 col-md-3 col-sm-3">
 				<div class="he-wrap tpl6">
-				<img class="img img-circle" src="assets/img/team/team04.jpg" alt="">
+				<img src="assets/img/team/team04.jpg" alt="">
 					<div class="he-view">
 						<div class="bg a0" data-animate="fadeIn">
                             <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
@@ -243,7 +263,6 @@
 				<h4>Saad El Hajjaji</h4>
 				<h5 class="ctitle">Chef Cellule Design et Media</h5>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-				<div class="hline"></div>
 		 	</div><! --/col-lg-3 -->		 	
 		 	
 	 	</div><! --/row -->
@@ -266,23 +285,23 @@
 	 </div><! --/twrap -->
 	 
 	<!-- *****************************************************************************************************************
-	 OUR CLIENTS
+	 NOS PARTENAIRES
 	 ***************************************************************************************************************** -->
 	 <div id="cwrap">
 		 <div class="container">
 		 	<div class="row centered">
-			 	<h3>OUR CLIENTS</h3>
+			 	<h3>NOS PARTENAIRES</h3>
 			 	<div class="col-lg-3 col-md-3 col-sm-3">
-			 		<img src="assets/img/clients/client01.png" class="img-responsive">
+			 		<img src="assets/img/google.jpg" width="150" class="img-responsive">
 			 	</div>
 			 	<div class="col-lg-3 col-md-3 col-sm-3">
-			 		<img src="assets/img/clients/client02.png" class="img-responsive">
+			 		<img src="assets/img/ensa.png"  width="200" class="img-responsive">
 			 	</div>
 			 	<div class="col-lg-3 col-md-3 col-sm-3">
-			 		<img src="assets/img/clients/client03.png" class="img-responsive">
+			 		<img src="assets/img/uae.png"  width="130" class="img-responsive">
 			 	</div>
 			 	<div class="col-lg-3 col-md-3 col-sm-3">
-			 		<img src="assets/img/clients/client04.png" class="img-responsive">
+			 		<img src="assets/img/ens.jpg"  width="160" class="img-responsive">
 			 	</div>
 		 	</div><! --/row -->
 		 </div><! --/container -->
@@ -295,28 +314,29 @@
 	 	<div class="container">
 		 	<div class="row">
 		 		<div class="col-lg-4">
-		 			<h4>About</h4>
+		 			<h4>A PROPOS</h4>
 		 			<div class="hline-w"></div>
-		 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-		 		</div>
-		 		<div class="col-lg-4">
-		 			<h4>Social Links</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-		 				<a href="#"><i class="fa fa-dribbble"></i></a>
-		 				<a href="#"><i class="fa fa-facebook"></i></a>
-		 				<a href="#"><i class="fa fa-twitter"></i></a>
-		 				<a href="#"><i class="fa fa-instagram"></i></a>
-		 				<a href="#"><i class="fa fa-tumblr"></i></a>
+		 			<p>Computer Science Club (CSC) est fondé en Mai 2009 par un groupe d'élèves ingénieurs de l'Ecole National des Science Appliquées de Tanger.<br>
+		 			Le CSC organise des conférences, des ateliers, des formations our atteindre les objectifs qu'il s'est fixé lors de sa création.
 		 			</p>
 		 		</div>
 		 		<div class="col-lg-4">
-		 			<h4>Our Bunker</h4>
+		 			<h4>RESEAUX SOCIAUX</h4>
 		 			<div class="hline-w"></div>
 		 			<p>
-		 				Some Ave, 987,<br/>
-		 				23890, New York,<br/>
-		 				United States.<br/>
+		 				<a href="https://www.facebook.com/ensat.csc"><i class="fa fa-facebook"></i></a>
+		 				<a href="#"><i class="fa fa-dribbble"></i></a>
+		 				<a href="#"><i class="fa fa-twitter"></i></a>
+		 				<a href="#"><i class="fa fa-inbox"></i></a>
+		 			</p>
+		 		</div>
+		 		<div class="col-lg-4">
+		 			<h4>ADRESSE</h4>
+		 			<div class="hline-w"></div>
+		 			<p>
+		 				ENSAT Boukhalef, 987,<br/>
+		 				Tangier, Maroc.<br/>
+		 				E.N.S.A Route Achkar, BP 1818 Principale Tanger Maroc
 		 			</p>
 		 		</div>
 		 	
