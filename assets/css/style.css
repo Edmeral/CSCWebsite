@@ -461,3 +461,8 @@ csmall2 {
 	padding-right: 15px;
 	font-size: 18px;
 }
+
+.text {
+	font-size: 1.1em;
+	font-family: 'Lato', sans-serif;
+}
