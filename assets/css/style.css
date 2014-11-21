@@ -205,7 +205,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-image: url("assets/img/bg.png");
+	background: url("assets/img/bg.png") no-repeat center top;
 	background-color: #00b3fe;
 	min-height: 550px;
 	padding-top: 100px;
@@ -404,7 +404,7 @@ csmall2 {
 
 /* Contact Page */
 #contactwrap {
-	background: url(../img/contact.jpg) no-repeat center top;
+	background: url(../img/map.png) no-repeat center top;
 	margin-top: -60px;
 	padding-top:0px;
 	text-align:center;
@@ -465,4 +465,18 @@ csmall2 {
 .text {
 	font-size: 1.1em;
 	font-family: 'Lato', sans-serif;
+}
+
+.presentation {
+	width: 80%;
+	margin-left: 10px;
+}
+
+.csc {
+	width: 300px;
+	padding: 50px;
+}
+
+.photo {
+	width : 200px;
 }
