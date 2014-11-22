@@ -10,8 +10,8 @@
 ################################################################# */ 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
-@import url("prettyPhoto.css") screen;
-@import url("hoverex-all.css") screen;
+@import url("prettyPhoto.min.css") screen;
+@import url("hoverex-all.min.css") screen;
 
 /*	################################################################
 	1. GENERAL STRUCTURES
@@ -205,8 +205,9 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background: url("assets/img/bg.png") no-repeat center top;
-	background-color: #00b3fe;
+	background: url("../img/bg.png") no-repeat center top;
+	width: 100%;
+	background-color: #386687;
 	min-height: 550px;
 	padding-top: 100px;
 	padding-bottom: 0px;
